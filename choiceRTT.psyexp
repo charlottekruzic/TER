@@ -155,6 +155,21 @@
         <Param name="correctAns" updates="constant" val="$corrAns" valType="str"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
       </KeyboardComponent>
+      <MouseComponent name="mouseResp">
+        <Param name="name" updates="None" val="mouseResp" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="isi" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="saveMouseState" updates="None" val="final" valType="str"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="timeRelativeTo" updates="constant" val="mouse onset" valType="str"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="clickable" updates="constant" val="targImage" valType="code"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="code"/>
+      </MouseComponent>
     </Routine>
     <Routine name="instructions">
       <TextComponent name="instr">
@@ -171,7 +186,7 @@
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="text" updates="constant" val="In this task you will push the space bar whenever you see the target 'X' appear.&amp;#10;&amp;#10;First, we shall have a practice.&amp;#10;&amp;#10;Push space bar to begin the practice session." valType="str"/>
+        <Param name="text" updates="constant" val="In this task you will push the space bar or click/touch the target whenever you see the target 'X' appear.&amp;#10;&amp;#10;First, we shall have a practice.&amp;#10;&amp;#10;Push space bar or click/touch to begin the practice session." valType="str"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.04" valType="code"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
@@ -194,6 +209,21 @@
         <Param name="correctAns" updates="constant" val="" valType="str"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
       </KeyboardComponent>
+      <MouseComponent name="startMouse">
+        <Param name="name" updates="None" val="startMouse" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="saveMouseState" updates="None" val="never" valType="str"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="any click" valType="str"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="clickable" updates="constant" val="" valType="code"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="code"/>
+      </MouseComponent>
     </Routine>
     <Routine name="startTask">
       <TextComponent name="ready">
@@ -210,7 +240,7 @@
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
         <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="text" updates="constant" val="Now we shall begin the actual experiment.&amp;#10;&amp;#10;Ready?&amp;#10;&amp;#10;Push space bar to begin." valType="str"/>
+        <Param name="text" updates="constant" val="Now we shall begin the actual experiment.&amp;#10;&amp;#10;Ready?&amp;#10;&amp;#10;Push space bar or click/touch to begin." valType="str"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.04" valType="code"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
@@ -233,6 +263,21 @@
         <Param name="correctAns" updates="constant" val="" valType="str"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
       </KeyboardComponent>
+      <MouseComponent name="mouseGo">
+        <Param name="name" updates="None" val="mouseGo" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="saveMouseState" updates="None" val="never" valType="str"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="any click" valType="str"/>
+        <Param name="timeRelativeTo" updates="constant" val="mouse onset" valType="str"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="clickable" updates="constant" val="" valType="code"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="code"/>
+      </MouseComponent>
     </Routine>
     <Routine name="thanks">
       <TextComponent name="text">
@@ -240,7 +285,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="stopVal" updates="constant" val="5" valType="code"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="units" updates="None" val="height" valType="str"/>

@@ -116,13 +116,17 @@ function experimentInit() {
   my.instr = new TextStim({
     win : my.window,
     name : 'my.instr',
-    text : "In this task you will push the space bar whenever you see the target 'X' appear.\n\nFirst, we shall have a practice.\n\nPush space bar to begin the practice session.",
+    text : "In this task you will push the space bar or click/touch the target whenever you see the target 'X' appear.\n\nFirst, we shall have a practice.\n\nPush space bar or click/touch to begin the practice session.",
     font : 'Arial',
     units : 'height',   pos : [0, 0], height : 0.04,  wrapWidth : undefined, ori: 0,
     color : new Color('white'),  opacity : 1,
     depth : 0.0 
   });
   
+  my.startMouse = new Mouse({
+    win: my.window,
+  });
+  my.startMouse.mouseClock = new Clock();
   // Initialize components for Routine "main"
   my.mainClock = new Clock();
   my.pos1 = new ImageStim({
@@ -170,18 +174,26 @@ function experimentInit() {
     flipHoriz : false, flipVert : false,
     texRes : 128, interpolate : true, depth : -4.0 
   });
+  my.mouseResp = new Mouse({
+    win: my.window,
+  });
+  my.mouseResp.mouseClock = new Clock();
   // Initialize components for Routine "startTask"
   my.startTaskClock = new Clock();
   my.ready = new TextStim({
     win : my.window,
     name : 'my.ready',
-    text : 'Now we shall begin the actual experiment.\n\nReady?\n\nPush space bar to begin.',
+    text : 'Now we shall begin the actual experiment.\n\nReady?\n\nPush space bar or click/touch to begin.',
     font : 'Arial',
     units : 'height',   pos : [0, 0], height : 0.04,  wrapWidth : undefined, ori: 0,
     color : new Color('white'),  opacity : 1,
     depth : 0.0 
   });
   
+  my.mouseGo = new Mouse({
+    win: my.window,
+  });
+  my.mouseGo.mouseClock = new Clock();
   // Initialize components for Routine "main"
   my.mainClock = new Clock();
   my.pos1 = new ImageStim({
@@ -229,6 +241,10 @@ function experimentInit() {
     flipHoriz : false, flipVert : false,
     texRes : 128, interpolate : true, depth : -4.0 
   });
+  my.mouseResp = new Mouse({
+    win: my.window,
+  });
+  my.mouseResp.mouseClock = new Clock();
   // Initialize components for Routine "thanks"
   my.thanksClock = new Clock();
   my.text = new TextStim({
@@ -255,10 +271,14 @@ function instructionsRoutineBegin() {
   my.frameN = -1;
   // update component parameters for each repeat
   my.startInst = new BuilderKeyResponse(psychoJS);
+  // setup some python lists for storing info about the my.startMouse
+  my.gotValidClick = false; // until a click is received
+  my.startMouse.mouseClock.reset();
   // keep track of which components have finished
   my.instructionsComponents = [];
   my.instructionsComponents.push(my.instr);
   my.instructionsComponents.push(my.startInst);
+  my.instructionsComponents.push(my.startMouse);
   
   for (const thisComponent of my.instructionsComponents)
     if ('status' in thisComponent)
@@ -304,6 +324,24 @@ function instructionsRoutineEachFrame() {
       continueRoutine = false;
     }
   }
+  // *my.startMouse* updates
+  if (my.t >= 0.0 && my.startMouse.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    my.startMouse.tStart = my.t;  // (not accounting for frame time here)
+    my.startMouse.frameNStart = my.frameN;  // exact frame index
+    my.startMouse.status = PsychoJS.Status.STARTED;
+    my.prevButtonState = my.startMouse.getPressed();  // if button is down already this ISN'T a new click
+    }
+  if (my.startMouse.status === PsychoJS.Status.STARTED) {  // only update if started and not stopped!
+    my.buttons = my.startMouse.getPressed();
+    if (!my.buttons.every( (e,i,) => (e == my.prevButtonState[i]) )) { // button state changed?
+      my.prevButtonState = my.buttons;
+      if (my.buttons.reduce( (e, acc) => (e+acc) ) > 0) { // state changed to a new click
+        // abort routine on response
+        continueRoutine = false;
+      }
+    }
+  }
   
   // check if the Routine should terminate
   if (!continueRoutine) {  // a component has requested a forced-end of Routine
@@ -336,6 +374,7 @@ function instructionsRoutineEnd() {
       thisComponent.setAutoDraw(false);
     }
   }
+  // store data for my.thisExp (ExperimentHandler)
   // the Routine "instructions" was not non-slip safe, so reset the non-slip timer
   my.routineTimer.reset();
   
@@ -416,6 +455,9 @@ function mainRoutineBegin() {
   my.pos4.setPos([0.375, 0]);
   my.targImage.setPos([my.xPos, 0]);
   my.response = new BuilderKeyResponse(psychoJS);
+  // setup some python lists for storing info about the my.mouseResp
+  my.mouseResp.clicked_name = [];
+  my.gotValidClick = false; // until a click is received
   // keep track of which components have finished
   my.mainComponents = [];
   my.mainComponents.push(my.pos1);
@@ -424,6 +466,7 @@ function mainRoutineBegin() {
   my.mainComponents.push(my.pos4);
   my.mainComponents.push(my.targImage);
   my.mainComponents.push(my.response);
+  my.mainComponents.push(my.mouseResp);
   
   for (const thisComponent of my.mainComponents)
     if ('status' in thisComponent)
@@ -510,6 +553,35 @@ function mainRoutineEachFrame() {
       continueRoutine = false;
     }
   }
+  // *my.mouseResp* updates
+  if (my.t >= my.isi && my.mouseResp.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    my.mouseResp.tStart = my.t;  // (not accounting for frame time here)
+    my.mouseResp.frameNStart = my.frameN;  // exact frame index
+    my.mouseResp.status = PsychoJS.Status.STARTED;
+    my.mouseResp.mouseClock.reset();
+    my.prevButtonState = my.mouseResp.getPressed();  // if button is down already this ISN'T a new click
+    }
+  if (my.mouseResp.status === PsychoJS.Status.STARTED) {  // only update if started and not stopped!
+    my.buttons = my.mouseResp.getPressed();
+    if (!my.buttons.every( (e,i,) => (e == my.prevButtonState[i]) )) { // button state changed?
+      my.prevButtonState = my.buttons;
+      if (my.buttons.reduce( (e, acc) => (e+acc) ) > 0) { // state changed to a new click
+        // check if the mouse was inside our 'clickable' objects
+        my.gotValidClick = false;
+        for (const obj of [my.targImage]) {
+          if (obj.contains(my.mouseResp)) {
+            my.gotValidClick = true;
+            my.mouseResp.clicked_name.push(obj.name);
+            console.log('INSIDE ' + obj.name);
+          }
+        }
+        if (my.gotValidClick === true) { // abort routine on response
+          continueRoutine = false;
+        }
+      }
+    }
+  }
   
   // check if the Routine should terminate
   if (!continueRoutine) {  // a component has requested a forced-end of Routine
@@ -561,6 +633,18 @@ function mainRoutineEnd() {
       my.experiment.addData('my.response.rt', my.response.rt);
       my.routineTimer.reset();
       }
+  // store data for my.thisExp (ExperimentHandler)
+  const xys = my.mouseResp.getPos();
+  const buttons = my.mouseResp.getPressed();
+  my.mouseResp.time = my.mouseResp.mouseClock.getTime();
+  psychoJS.experiment.addData('my.mouseResp.x', xys[0]);
+  psychoJS.experiment.addData('my.mouseResp.y', xys[1]);
+  psychoJS.experiment.addData('my.mouseResp.leftButton', buttons[0]);
+  psychoJS.experiment.addData('my.mouseResp.midButton', buttons[1]);
+  psychoJS.experiment.addData('my.mouseResp.rightButton', buttons[2]);
+  psychoJS.experiment.addData('my.mouseResp.RT', my.mouseResp.time );
+  if (my.mouseResp.clicked_name.length > 0)
+    psychoJS.experiment.addData('my.mouseResp.clicked_name', my.mouseResp.clicked_name[0]);
   // the Routine "main" was not non-slip safe, so reset the non-slip timer
   my.routineTimer.reset();
   
@@ -574,10 +658,13 @@ function startTaskRoutineBegin() {
   my.frameN = -1;
   // update component parameters for each repeat
   my.go = new BuilderKeyResponse(psychoJS);
+  // setup some python lists for storing info about the my.mouseGo
+  my.gotValidClick = false; // until a click is received
   // keep track of which components have finished
   my.startTaskComponents = [];
   my.startTaskComponents.push(my.ready);
   my.startTaskComponents.push(my.go);
+  my.startTaskComponents.push(my.mouseGo);
   
   for (const thisComponent of my.startTaskComponents)
     if ('status' in thisComponent)
@@ -623,6 +710,25 @@ function startTaskRoutineEachFrame() {
       continueRoutine = false;
     }
   }
+  // *my.mouseGo* updates
+  if (my.t >= 0.0 && my.mouseGo.status === PsychoJS.Status.NOT_STARTED) {
+    // keep track of start time/frame for later
+    my.mouseGo.tStart = my.t;  // (not accounting for frame time here)
+    my.mouseGo.frameNStart = my.frameN;  // exact frame index
+    my.mouseGo.status = PsychoJS.Status.STARTED;
+    my.mouseGo.mouseClock.reset();
+    my.prevButtonState = my.mouseGo.getPressed();  // if button is down already this ISN'T a new click
+    }
+  if (my.mouseGo.status === PsychoJS.Status.STARTED) {  // only update if started and not stopped!
+    my.buttons = my.mouseGo.getPressed();
+    if (!my.buttons.every( (e,i,) => (e == my.prevButtonState[i]) )) { // button state changed?
+      my.prevButtonState = my.buttons;
+      if (my.buttons.reduce( (e, acc) => (e+acc) ) > 0) { // state changed to a new click
+        // abort routine on response
+        continueRoutine = false;
+      }
+    }
+  }
   
   // check if the Routine should terminate
   if (!continueRoutine) {  // a component has requested a forced-end of Routine
@@ -655,6 +761,7 @@ function startTaskRoutineEnd() {
       thisComponent.setAutoDraw(false);
     }
   }
+  // store data for my.thisExp (ExperimentHandler)
   // the Routine "startTask" was not non-slip safe, so reset the non-slip timer
   my.routineTimer.reset();
   
@@ -666,7 +773,7 @@ function thanksRoutineBegin() {
   my.t = 0;
   my.thanksClock.reset(); // clock
   my.frameN = -1;
-  my.routineTimer.add(5.000000);
+  my.routineTimer.add(3.000000);
   // update component parameters for each repeat
   // keep track of which components have finished
   my.thanksComponents = [];
@@ -694,7 +801,7 @@ function thanksRoutineEachFrame() {
     my.text.frameNStart = my.frameN;  // exact frame index
     my.text.setAutoDraw(true);
   }
-  my.frameRemains = 0.0 + 5 - my.window.monitorFramePeriod * 0.75;  // most of one frame period left
+  my.frameRemains = 0.0 + 3 - my.window.monitorFramePeriod * 0.75;  // most of one frame period left
   if (my.text.status === PsychoJS.Status.STARTED && my.t >= my.frameRemains) {
     my.text.setAutoDraw(false);
   }
