@@ -188,7 +188,7 @@
         <Param name="ori" updates="constant" val="0" valType="code"/>
         <Param name="text" updates="constant" val="In this task you will push the space bar or click/touch the target whenever you see the target 'X' appear.&amp;#10;&amp;#10;First, we shall have a practice.&amp;#10;&amp;#10;Push space bar or click/touch to begin the practice session." valType="str"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
-        <Param name="letterHeight" updates="constant" val="0.04" valType="code"/>
+        <Param name="letterHeight" updates="constant" val="0.035" valType="code"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
         <Param name="flip" updates="constant" val="" valType="str"/>
         <Param name="languageStyle" updates="None" val="LTR" valType="str"/>

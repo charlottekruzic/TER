@@ -118,7 +118,7 @@ function experimentInit() {
     name : 'my.instr',
     text : "In this task you will push the space bar or click/touch the target whenever you see the target 'X' appear.\n\nFirst, we shall have a practice.\n\nPush space bar or click/touch to begin the practice session.",
     font : 'Arial',
-    units : 'height',   pos : [0, 0], height : 0.04,  wrapWidth : undefined, ori: 0,
+    units : 'height',   pos : [0, 0], height : 0.035,  wrapWidth : undefined, ori: 0,
     color : new Color('white'),  opacity : 1,
     depth : 0.0 
   });
