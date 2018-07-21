@@ -1,0 +1,9 @@
+my.response.keys, my.response.corr, my.response.rt, my.mouseResp.x, my.mouseResp.y, my.mouseResp.leftButton, my.mouseResp.midButton, my.mouseResp.rightButton, my.mouseResp.RT, my.mouseResp.clicked_name, my.practiceTrials.thisRepN, my.practiceTrials.thisTrialN, my.practiceTrials.thisN, my.practiceTrials.thisIndex, my.practiceTrials.ran, my.practiceTrials.order, isi, xPos, corrAns, participant, session, date, expName, frameRate
+, 0, , -0.34375, 0.015, 1, 0, 0, 0.9350000000000005, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, 10, 001, Sat Jul 21 2018 18:01:42 GMT-0400 (Eastern Daylight Time), choiceRTT, 60
+, 0, , 0.13625, 0.0125, 1, 0, 0, 0.4339999999999993, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, 10, 001, Sat Jul 21 2018 18:01:42 GMT-0400 (Eastern Daylight Time), choiceRTT, 60
+, 0, , -0.28125, 0.01125, 1, 0, 0, 0.4660000000000011, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, 10, 001, Sat Jul 21 2018 18:01:42 GMT-0400 (Eastern Daylight Time), choiceRTT, 60
+, 0, , -0.07875, -0.01625, 1, 0, 0, 0.43299999999999983, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, 10, 001, Sat Jul 21 2018 18:01:42 GMT-0400 (Eastern Daylight Time), choiceRTT, 60
+, 0, , -0.13625, -0.015, 1, 0, 0, 0.43299999999999983, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, 10, 001, Sat Jul 21 2018 18:01:42 GMT-0400 (Eastern Daylight Time), choiceRTT, 60
+, 0, , 0.35625, 0.0525, 1, 0, 0, 0.45000000000000284, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, 10, 001, Sat Jul 21 2018 18:01:42 GMT-0400 (Eastern Daylight Time), choiceRTT, 60
+, 0, , 0.1025, -0.0275, 1, 0, 0, 2.2189999999999976, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, 10, 001, Sat Jul 21 2018 18:01:42 GMT-0400 (Eastern Daylight Time), choiceRTT, 60
+, 0, , 0.32, 0.00125, 1, 0, 0, 0.6829999999999998, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, 10, 001, Sat Jul 21 2018 18:01:42 GMT-0400 (Eastern Daylight Time), choiceRTT, 60
