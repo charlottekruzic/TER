@@ -1,0 +1,9 @@
+my.response.keys, my.response.corr, my.response.rt, my.mouseResp.x, my.mouseResp.y, my.mouseResp.leftButton, my.mouseResp.midButton, my.mouseResp.rightButton, my.mouseResp.RT, my.mouseResp.clicked_name, my.practiceTrials.thisRepN, my.practiceTrials.thisTrialN, my.practiceTrials.thisN, my.practiceTrials.thisIndex, my.practiceTrials.ran, my.practiceTrials.order, isi, xPos, corrAns, participant, session, date, expName, frameRate
+, 0, , 0.41125, -0.0475, 1, 0, 0, 2.2520000000000024, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, 0, 001, Mon Jul 23 2018 10:13:10 GMT+1000 (Australian Eastern Standard Time), choiceRTT, 60
+, 0, , -0.44375, -0.0225, 1, 0, 0, 0.732999999999997, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, 0, 001, Mon Jul 23 2018 10:13:10 GMT+1000 (Australian Eastern Standard Time), choiceRTT, 60
+, 0, , 0.14, 0.06875, 1, 0, 0, 0.43299999999999983, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, 0, 001, Mon Jul 23 2018 10:13:10 GMT+1000 (Australian Eastern Standard Time), choiceRTT, 60
+, 0, , -0.16375, 0.00125, 1, 0, 0, 0.4830000000000041, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, 0, 001, Mon Jul 23 2018 10:13:10 GMT+1000 (Australian Eastern Standard Time), choiceRTT, 60
+, 0, , -0.41875, -0.03875, 1, 0, 0, 1.801000000000002, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, 0, 001, Mon Jul 23 2018 10:13:10 GMT+1000 (Australian Eastern Standard Time), choiceRTT, 60
+, 0, , -0.14, -0.0225, 1, 0, 0, 0.5670000000000002, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, 0, 001, Mon Jul 23 2018 10:13:10 GMT+1000 (Australian Eastern Standard Time), choiceRTT, 60
+, 0, , 0.12125, 0.05375, 1, 0, 0, 0.3999999999999986, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, 0, 001, Mon Jul 23 2018 10:13:10 GMT+1000 (Australian Eastern Standard Time), choiceRTT, 60
+, 0, , 0.3825, 0.07875, 1, 0, 0, 0.43499999999999517, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, 0, 001, Mon Jul 23 2018 10:13:10 GMT+1000 (Australian Eastern Standard Time), choiceRTT, 60
