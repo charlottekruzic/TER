@@ -1,0 +1,9 @@
+my.response.keys, my.response.corr, my.response.rt, my.mouseResp.x, my.mouseResp.y, my.mouseResp.leftButton, my.mouseResp.midButton, my.mouseResp.rightButton, my.mouseResp.RT, my.mouseResp.clicked_name, my.practiceTrials.thisRepN, my.practiceTrials.thisTrialN, my.practiceTrials.thisN, my.practiceTrials.thisIndex, my.practiceTrials.ran, my.practiceTrials.order, isi, xPos, corrAns, participant, session, date, expName, frameRate
+, 0, , -0.36666666666666664, -0.011111111111111112, 1, 0, 0, 3.169999999999998, my.targImage, 1, 0, 8, 5, 1, 7, 1, -0.125, v, Ii, 001, Wed Jul 25 2018 00:50:42 GMT+0900 (JST), choiceRTT, 60
+, 0, , -0.3333333333333333, 0.022222222222222223, 1, 0, 0, 4.084, my.targImage, 1, 0, 8, 5, 1, 7, 1, -0.125, v, Ii, 001, Wed Jul 25 2018 00:50:42 GMT+0900 (JST), choiceRTT, 60
+, 0, , 0.36666666666666664, -0.005555555555555556, 1, 0, 0, 4.734000000000002, my.targImage, 1, 0, 8, 5, 1, 7, 1, -0.125, v, Ii, 001, Wed Jul 25 2018 00:50:42 GMT+0900 (JST), choiceRTT, 60
+, 0, , 0.3888888888888889, -0.022222222222222223, 1, 0, 0, 0.652000000000001, my.targImage, 1, 0, 8, 5, 1, 7, 1, -0.125, v, Ii, 001, Wed Jul 25 2018 00:50:42 GMT+0900 (JST), choiceRTT, 60
+, 0, , -0.10277777777777777, 0.008333333333333333, 1, 0, 0, 0.570999999999998, my.targImage, 1, 0, 8, 5, 1, 7, 1, -0.125, v, Ii, 001, Wed Jul 25 2018 00:50:42 GMT+0900 (JST), choiceRTT, 60
+, 0, , 0.12222222222222222, -0.041666666666666664, 1, 0, 0, 0.46700000000000585, my.targImage, 1, 0, 8, 5, 1, 7, 1, -0.125, v, Ii, 001, Wed Jul 25 2018 00:50:42 GMT+0900 (JST), choiceRTT, 60
+, 0, , 0.1388888888888889, 0, 1, 0, 0, 0.5379999999999967, my.targImage, 1, 0, 8, 5, 1, 7, 1, -0.125, v, Ii, 001, Wed Jul 25 2018 00:50:42 GMT+0900 (JST), choiceRTT, 60
+, 0, , -0.13333333333333333, -0.025, 1, 0, 0, 0.5150000000000006, my.targImage, 1, 0, 8, 5, 1, 7, 1, -0.125, v, Ii, 001, Wed Jul 25 2018 00:50:42 GMT+0900 (JST), choiceRTT, 60
