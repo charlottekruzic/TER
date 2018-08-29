@@ -1,0 +1,9 @@
+my.response.keys, my.response.corr, my.response.rt, my.mouseResp.x, my.mouseResp.y, my.mouseResp.leftButton, my.mouseResp.midButton, my.mouseResp.rightButton, my.mouseResp.RT, my.mouseResp.clicked_name, my.practiceTrials.thisRepN, my.practiceTrials.thisTrialN, my.practiceTrials.thisN, my.practiceTrials.thisIndex, my.practiceTrials.ran, my.practiceTrials.order, isi, xPos, corrAns, participant, session, date, expName, frameRate
+, 0, , 0.3580729166666667, 0.0013020833333333333, 1, 0, 0, 4.6370000000000005, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, Ruhr, 001, Sun Jul 22 2018 12:56:08 GMT+0800 (中国标准时间), choiceRTT, 60
+, 0, , 0.10546875, -0.026041666666666668, 1, 0, 0, 0.7149999999999963, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, Ruhr, 001, Sun Jul 22 2018 12:56:08 GMT+0800 (中国标准时间), choiceRTT, 60
+, 0, , -0.14713541666666666, -0.010416666666666666, 1, 0, 0, 0.3509999999999991, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, Ruhr, 001, Sun Jul 22 2018 12:56:08 GMT+0800 (中国标准时间), choiceRTT, 60
+, 0, , -0.08333333333333333, -0.0390625, 1, 0, 0, 0.6510000000000034, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, Ruhr, 001, Sun Jul 22 2018 12:56:08 GMT+0800 (中国标准时间), choiceRTT, 60
+, 0, , -0.3723958333333333, 0.022135416666666668, 1, 0, 0, 0.8500000000000014, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, Ruhr, 001, Sun Jul 22 2018 12:56:08 GMT+0800 (中国标准时间), choiceRTT, 60
+, 0, , 0.12369791666666667, -0.006510416666666667, 1, 0, 0, 0.34900000000000375, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, Ruhr, 001, Sun Jul 22 2018 12:56:08 GMT+0800 (中国标准时间), choiceRTT, 60
+, 0, , 0.3815104166666667, -0.015625, 1, 0, 0, 0.6340000000000003, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, Ruhr, 001, Sun Jul 22 2018 12:56:08 GMT+0800 (中国标准时间), choiceRTT, 60
+, 0, , -0.39453125, 0.045572916666666664, 1, 0, 0, 0.784000000000006, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, Ruhr, 001, Sun Jul 22 2018 12:56:08 GMT+0800 (中国标准时间), choiceRTT, 60

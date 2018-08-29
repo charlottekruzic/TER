@@ -1,0 +1,9 @@
+my.response.keys, my.response.corr, my.response.rt, my.mouseResp.x, my.mouseResp.y, my.mouseResp.leftButton, my.mouseResp.midButton, my.mouseResp.rightButton, my.mouseResp.RT, my.mouseResp.clicked_name, my.practiceTrials.thisRepN, my.practiceTrials.thisTrialN, my.practiceTrials.thisN, my.practiceTrials.thisIndex, my.practiceTrials.ran, my.practiceTrials.order, isi, xPos, corrAns, participant, session, date, expName, frameRate
+, 0, , -0.10277777777777777, 0.008333333333333333, 1, 0, 0, 4.657, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, 1, 001, Tue Jul 24 2018 11:32:00 GMT+0900 (日本標準時), choiceRTT, 60
+, 0, , 0.4027777777777778, -0.011111111111111112, 1, 0, 0, 0.4499999999999993, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, 1, 001, Tue Jul 24 2018 11:32:00 GMT+0900 (日本標準時), choiceRTT, 60
+, 0, , -0.4305555555555556, -0.03611111111111111, 1, 0, 0, 0.4200000000000017, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, 1, 001, Tue Jul 24 2018 11:32:00 GMT+0900 (日本標準時), choiceRTT, 60
+, 0, , 0.16111111111111112, -0.06666666666666667, 1, 0, 0, 0.36599999999999966, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, 1, 001, Tue Jul 24 2018 11:32:00 GMT+0900 (日本標準時), choiceRTT, 60
+, 0, , -0.17222222222222222, -0.06944444444444445, 1, 0, 0, 0.45300000000000296, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, 1, 001, Tue Jul 24 2018 11:32:00 GMT+0900 (日本標準時), choiceRTT, 60
+, 0, , 0.37777777777777777, -0.03611111111111111, 1, 0, 0, 0.3539999999999992, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, 1, 001, Tue Jul 24 2018 11:32:00 GMT+0900 (日本標準時), choiceRTT, 60
+, 0, , 0.15833333333333333, -0.05555555555555555, 1, 0, 0, 0.3670000000000009, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, 1, 001, Tue Jul 24 2018 11:32:00 GMT+0900 (日本標準時), choiceRTT, 60
+, 0, , -0.35555555555555557, -0.06388888888888888, 1, 0, 0, 0.36699999999999733, my.targImage, 1, 0, 8, 4, 1, 7, 1, -0.375, c, 1, 001, Tue Jul 24 2018 11:32:00 GMT+0900 (日本標準時), choiceRTT, 60

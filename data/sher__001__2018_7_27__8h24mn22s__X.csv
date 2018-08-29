@@ -1,0 +1,9 @@
+my.response.keys, my.response.corr, my.response.rt, my.mouseResp.x, my.mouseResp.y, my.mouseResp.leftButton, my.mouseResp.midButton, my.mouseResp.rightButton, my.mouseResp.RT, my.mouseResp.clicked_name, my.practiceTrials.thisRepN, my.practiceTrials.thisTrialN, my.practiceTrials.thisN, my.practiceTrials.thisIndex, my.practiceTrials.ran, my.practiceTrials.order, isi, xPos, corrAns, participant, session, date, expName, frameRate
+, 0, , 0.3779296875, -0.013671875, 1, 0, 0, 4.899999999999999, my.targImage, 1, 0, 8, 2, 1, 7, 1, 0.125, b, sher, 001, Fri Jul 27 2018 10:23:53 GMT+0300 (RTZ 2 (зима)), choiceRTT, 60
+, 0, , -0.197265625, -0.0234375, 1, 0, 0, 0.6000000000000014, my.targImage, 1, 0, 8, 2, 1, 7, 1, 0.125, b, sher, 001, Fri Jul 27 2018 10:23:53 GMT+0300 (RTZ 2 (зима)), choiceRTT, 60
+, 0, , 0.0380859375, -0.0029296875, 1, 0, 0, 0.5319999999999965, my.targImage, 1, 0, 8, 2, 1, 7, 1, 0.125, b, sher, 001, Fri Jul 27 2018 10:23:53 GMT+0300 (RTZ 2 (зима)), choiceRTT, 60
+, 0, , -0.3515625, -0.0009765625, 1, 0, 0, 0.5649999999999977, my.targImage, 1, 0, 8, 2, 1, 7, 1, 0.125, b, sher, 001, Fri Jul 27 2018 10:23:53 GMT+0300 (RTZ 2 (зима)), choiceRTT, 60
+, 0, , -0.3515625, -0.0009765625, 1, 0, 0, 0.36699999999999733, my.targImage, 1, 0, 8, 2, 1, 7, 1, 0.125, b, sher, 001, Fri Jul 27 2018 10:23:53 GMT+0300 (RTZ 2 (зима)), choiceRTT, 60
+, 0, , -0.130859375, 0.005859375, 1, 0, 0, 0.7650000000000006, my.targImage, 1, 0, 8, 2, 1, 7, 1, 0.125, b, sher, 001, Fri Jul 27 2018 10:23:53 GMT+0300 (RTZ 2 (зима)), choiceRTT, 60
+, 0, , 0.361328125, 0.0087890625, 1, 0, 0, 0.7379999999999995, my.targImage, 1, 0, 8, 2, 1, 7, 1, 0.125, b, sher, 001, Fri Jul 27 2018 10:23:53 GMT+0300 (RTZ 2 (зима)), choiceRTT, 60
+, 0, , 0.1396484375, -0.0048828125, 1, 0, 0, 0.7319999999999922, my.targImage, 1, 0, 8, 2, 1, 7, 1, 0.125, b, sher, 001, Fri Jul 27 2018 10:23:53 GMT+0300 (RTZ 2 (зима)), choiceRTT, 60
