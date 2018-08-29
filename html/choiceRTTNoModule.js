@@ -2,13 +2,6 @@
  * Choicertt Test *
  ******************/
 
-import { PsychoJS } from './lib/core-3.0.0b3.js';
-import * as core from './lib/core-3.0.0b3.js';
-import { TrialHandler } from './lib/data-3.0.0b3.js';
-import { Scheduler } from './lib/util-3.0.0b3.js';
-import * as util from './lib/util-3.0.0b3.js';
-import * as visual from './lib/visual-3.0.0b3.js';
-
 // init psychoJS:
 var psychoJS = new PsychoJS({
   debug: true
