@@ -1,0 +1,9 @@
+response.keys, response.corr, response.rt, mouseResp.clicked_name, practiceTrials.thisRepN, practiceTrials.thisTrialN, practiceTrials.thisN, practiceTrials.thisIndex, practiceTrials.ran, practiceTrials.order, isi, xPos, corrAns, participant, session, date, expName, frameRate
+, 0, , targImage, 1, 0, 8, 0, 1, 7, 1, -0.375, c, 1, 001, 2018-09-13_14:06:02.052, choiceRTT, 60
+, 0, , targImage, 1, 0, 8, 0, 1, 7, 1, -0.375, c, 1, 001, 2018-09-13_14:06:02.052, choiceRTT, 60
+c, 0, 1.7659999999999982, undefined, 1, 0, 8, 0, 1, 7, 1, -0.375, c, 1, 001, 2018-09-13_14:06:02.052, choiceRTT, 60
+c, 0, 0.4170000000000016, undefined, 1, 0, 8, 0, 1, 7, 1, -0.375, c, 1, 001, 2018-09-13_14:06:02.052, choiceRTT, 60
+c, 0, 0.21600000000000108, undefined, 1, 0, 8, 0, 1, 7, 1, -0.375, c, 1, 001, 2018-09-13_14:06:02.052, choiceRTT, 60
+c, 0, 0.19900000000000517, undefined, 1, 0, 8, 0, 1, 7, 1, -0.375, c, 1, 001, 2018-09-13_14:06:02.052, choiceRTT, 60
+c, 0, 0.28300000000000125, undefined, 1, 0, 8, 0, 1, 7, 1, -0.375, c, 1, 001, 2018-09-13_14:06:02.052, choiceRTT, 60
+c, 1, 0.4159999999999968, undefined, 1, 0, 8, 0, 1, 7, 1, -0.375, c, 1, 001, 2018-09-13_14:06:02.052, choiceRTT, 60
