@@ -1,9 +1,0 @@
-response.keys, response.corr, response.rt, practiceTrials.thisRepN, practiceTrials.thisTrialN, practiceTrials.thisN, practiceTrials.thisIndex, practiceTrials.ran, practiceTrials.order, isi, xPos, corrAns, participant, session, date, expName, frameRate
-c, 0, 6.3580000000000005, 1, 0, 8, 1, 1, 7, 1, -0.125, v, , 001, 2018-10-09_18:00:08.483, choiceRTT, 60
-c, 1, 4.2520000000000024, 1, 0, 8, 1, 1, 7, 1, -0.125, v, , 001, 2018-10-09_18:00:08.483, choiceRTT, 60
-c, 1, 0.41600000000000037, 1, 0, 8, 1, 1, 7, 1, -0.125, v, , 001, 2018-10-09_18:00:08.483, choiceRTT, 60
-c, 0, 0.3000000000000007, 1, 0, 8, 1, 1, 7, 1, -0.125, v, , 001, 2018-10-09_18:00:08.483, choiceRTT, 60
-c, 0, 0.31599999999999895, 1, 0, 8, 1, 1, 7, 1, -0.125, v, , 001, 2018-10-09_18:00:08.483, choiceRTT, 60
-c, 0, 0.28200000000000003, 1, 0, 8, 1, 1, 7, 1, -0.125, v, , 001, 2018-10-09_18:00:08.483, choiceRTT, 60
-c, 0, 0.2480000000000011, 1, 0, 8, 1, 1, 7, 1, -0.125, v, , 001, 2018-10-09_18:00:08.483, choiceRTT, 60
-c, 0, 0.2480000000000011, 1, 0, 8, 1, 1, 7, 1, -0.125, v, , 001, 2018-10-09_18:00:08.483, choiceRTT, 60
