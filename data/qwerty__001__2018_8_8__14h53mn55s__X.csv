@@ -1,9 +1,0 @@
-my.response.keys, my.response.corr, my.response.rt, my.mouseResp.x, my.mouseResp.y, my.mouseResp.leftButton, my.mouseResp.midButton, my.mouseResp.rightButton, my.mouseResp.RT, my.mouseResp.clicked_name, my.practiceTrials.thisRepN, my.practiceTrials.thisTrialN, my.practiceTrials.thisN, my.practiceTrials.thisIndex, my.practiceTrials.ran, my.practiceTrials.order, isi, xPos, corrAns, participant, session, date, expName, frameRate
-, 0, , -0.33125, 0.0375, 1, 0, 0, 9.649999999999999, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, qwerty, 001, Wed Aug 08 2018 16:53:09 GMT+0300 (Москва, стандартное время), choiceRTT, 60
-, 0, , 0.1225, -0.03875, 1, 0, 0, 0.5510000000000019, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, qwerty, 001, Wed Aug 08 2018 16:53:09 GMT+0300 (Москва, стандартное время), choiceRTT, 60
-, 0, , -0.12125, 0.0025, 1, 0, 0, 0.3990000000000009, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, qwerty, 001, Wed Aug 08 2018 16:53:09 GMT+0300 (Москва, стандартное время), choiceRTT, 60
-, 0, , 0.37625, 0.005, 1, 0, 0, 0.6360000000000028, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, qwerty, 001, Wed Aug 08 2018 16:53:09 GMT+0300 (Москва, стандартное время), choiceRTT, 60
-, 0, , -0.3475, 0.00875, 1, 0, 0, 0.5019999999999953, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, qwerty, 001, Wed Aug 08 2018 16:53:09 GMT+0300 (Москва, стандартное время), choiceRTT, 60
-, 0, , -0.12375, -0.00375, 1, 0, 0, 0.7359999999999971, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, qwerty, 001, Wed Aug 08 2018 16:53:09 GMT+0300 (Москва, стандартное время), choiceRTT, 60
-, 0, , 0.12125, 0.01875, 1, 0, 0, 0.7190000000000012, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, qwerty, 001, Wed Aug 08 2018 16:53:09 GMT+0300 (Москва, стандартное время), choiceRTT, 60
-, 0, , 0.31875, -0.01625, 1, 0, 0, 0.7520000000000024, my.targImage, 1, 0, 8, 3, 1, 7, 1, 0.375, n, qwerty, 001, Wed Aug 08 2018 16:53:09 GMT+0300 (Москва, стандартное время), choiceRTT, 60

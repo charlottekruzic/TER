@@ -1,9 +1,0 @@
-my.response.keys, my.response.corr, my.response.rt, my.mouseResp.x, my.mouseResp.y, my.mouseResp.leftButton, my.mouseResp.midButton, my.mouseResp.rightButton, my.mouseResp.RT, my.mouseResp.clicked_name, my.practiceTrials.thisRepN, my.practiceTrials.thisTrialN, my.practiceTrials.thisN, my.practiceTrials.thisIndex, my.practiceTrials.ran, my.practiceTrials.order, isi, xPos, corrAns, participant, session, date, expName, frameRate
-, 0, , 0.1111111111111111, -0.06481481481481481, 1, 0, 0, 1.1669999999999998, my.targImage, 1, 0, 8, 0, 1, 7, 1, -0.375, c, dsad, 001, Tue Aug 28 2018 20:59:23 GMT+0800 (中国标准时间), choiceRTT, 60
-, 0, , 0.3888888888888889, -0.018518518518518517, 1, 0, 0, 2.166999999999998, my.targImage, 1, 0, 8, 0, 1, 7, 1, -0.375, c, dsad, 001, Tue Aug 28 2018 20:59:23 GMT+0800 (中国标准时间), choiceRTT, 60
-, 0, , 0.38657407407407407, -0.018518518518518517, 1, 0, 0, 0.7810000000000024, my.targImage, 1, 0, 8, 0, 1, 7, 1, -0.375, c, dsad, 001, Tue Aug 28 2018 20:59:23 GMT+0800 (中国标准时间), choiceRTT, 60
-, 0, , -0.08333333333333333, -0.032407407407407406, 1, 0, 0, 1.2010000000000005, my.targImage, 1, 0, 8, 0, 1, 7, 1, -0.375, c, dsad, 001, Tue Aug 28 2018 20:59:23 GMT+0800 (中国标准时间), choiceRTT, 60
-, 0, , -0.42824074074074076, 0.03935185185185185, 1, 0, 0, 1.001999999999999, my.targImage, 1, 0, 8, 0, 1, 7, 1, -0.375, c, dsad, 001, Tue Aug 28 2018 20:59:23 GMT+0800 (中国标准时间), choiceRTT, 60
-, 0, , 0.125, 0.037037037037037035, 1, 0, 0, 0.6989999999999981, my.targImage, 1, 0, 8, 0, 1, 7, 1, -0.375, c, dsad, 001, Tue Aug 28 2018 20:59:23 GMT+0800 (中国标准时间), choiceRTT, 60
-, 0, , -0.12268518518518519, 0.02546296296296296, 1, 0, 0, 0.6339999999999968, my.targImage, 1, 0, 8, 0, 1, 7, 1, -0.375, c, dsad, 001, Tue Aug 28 2018 20:59:23 GMT+0800 (中国标准时间), choiceRTT, 60
-, 0, , -0.3541666666666667, -0.011574074074074073, 1, 0, 0, 1.1509999999999998, my.targImage, 1, 0, 8, 0, 1, 7, 1, -0.375, c, dsad, 001, Tue Aug 28 2018 20:59:23 GMT+0800 (中国标准时间), choiceRTT, 60

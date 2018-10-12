@@ -1,9 +1,0 @@
-my.response.keys, my.response.corr, my.response.rt, my.mouseResp.x, my.mouseResp.y, my.mouseResp.leftButton, my.mouseResp.midButton, my.mouseResp.rightButton, my.mouseResp.RT, my.mouseResp.clicked_name, my.practiceTrials.thisRepN, my.practiceTrials.thisTrialN, my.practiceTrials.thisN, my.practiceTrials.thisIndex, my.practiceTrials.ran, my.practiceTrials.order, isi, xPos, corrAns, participant, session, date, expName, frameRate
-, 0, , 0.13802083333333334, -0.044270833333333336, 1, 0, 0, 6.734000000000002, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, sfsdfsaf, 001, Fri Jul 20 2018 21:39:43 GMT+0200 (CEST), choiceRTT, 60
-, 0, , 0.13802083333333334, -0.014322916666666666, 1, 0, 0, 1.068000000000005, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, sfsdfsaf, 001, Fri Jul 20 2018 21:39:43 GMT+0200 (CEST), choiceRTT, 60
-, 0, , -0.3385416666666667, -0.006510416666666667, 1, 0, 0, 1.017000000000003, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, sfsdfsaf, 001, Fri Jul 20 2018 21:39:43 GMT+0200 (CEST), choiceRTT, 60
-, 0, , -0.38671875, 0.0078125, 1, 0, 0, 0.9159999999999968, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, sfsdfsaf, 001, Fri Jul 20 2018 21:39:43 GMT+0200 (CEST), choiceRTT, 60
-, 0, , -0.11848958333333333, 0.016927083333333332, 1, 0, 0, 0.8170000000000002, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, sfsdfsaf, 001, Fri Jul 20 2018 21:39:43 GMT+0200 (CEST), choiceRTT, 60
-, 0, , 0.27593818984547464, 0.0695364238410596, 1, 0, 0, 115.83499999999998, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, sfsdfsaf, 001, Fri Jul 20 2018 21:39:43 GMT+0200 (CEST), choiceRTT, 60
-, 0, , -0.11479028697571744, 0.012141280353200883, 1, 0, 0, 1.1829999999999927, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, sfsdfsaf, 001, Fri Jul 20 2018 21:39:43 GMT+0200 (CEST), choiceRTT, 60
-, 0, , 0.39293598233995586, -0.0011037527593818985, 1, 0, 0, 1.6340000000000146, my.targImage, 1, 0, 8, 7, 1, 7, 1, 0.375, n, sfsdfsaf, 001, Fri Jul 20 2018 21:39:43 GMT+0200 (CEST), choiceRTT, 60
