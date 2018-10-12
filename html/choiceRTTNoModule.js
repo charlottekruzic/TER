@@ -48,10 +48,10 @@ flowScheduler.add(mainTrialsLoopEnd);
 flowScheduler.add(thanksRoutineBegin);
 flowScheduler.add(thanksRoutineEachFrame);
 flowScheduler.add(thanksRoutineEnd);
-flowScheduler.add(quitPsychoJS);
+flowScheduler.add(quitPsychoJS, true);
 
 // quit if user presses Cancel in dialog box:
-dialogCancelScheduler.add(quitPsychoJS);
+dialogCancelScheduler.add(quitPsychoJS, false);
 
 psychoJS.start({configURL: 'config.json', expInfo: expInfo});
 
@@ -69,7 +69,7 @@ function updateInfo() {
 
   // add info from the URL:
   util.addInfoFromUrl(expInfo);
-
+  psychoJS.setRedirectUrls('completedURL', 'incompleteURL');
   return Scheduler.Event.NEXT;
 }
 
@@ -382,7 +382,7 @@ function practiceTrialsLoopBegin(thisScheduler) {
 
   // Schedule all the trials in the trialList:
   for (const thisPracticeTrial of practiceTrials) {
-    thisScheduler.add(importTrialAttributes(thisPracticeTrial));
+    thisScheduler.add(importConditions(practiceTrials));
     thisScheduler.add(mainRoutineBegin);
     thisScheduler.add(mainRoutineEachFrame);
     thisScheduler.add(mainRoutineEnd);
@@ -395,9 +395,6 @@ function practiceTrialsLoopBegin(thisScheduler) {
 
 function practiceTrialsLoopEnd() {
   psychoJS.experiment.removeLoop(practiceTrials);
-  psychoJS.experiment.save({
-    attributes: practiceTrials.getAttributes()
-  });
 
   return Scheduler.Event.NEXT;
 }
@@ -415,7 +412,7 @@ function mainTrialsLoopBegin(thisScheduler) {
 
   // Schedule all the trials in the trialList:
   for (const thisMainTrial of mainTrials) {
-    thisScheduler.add(importTrialAttributes(thisMainTrial));
+    thisScheduler.add(importConditions(mainTrials));
     thisScheduler.add(mainRoutineBegin);
     thisScheduler.add(mainRoutineEachFrame);
     thisScheduler.add(mainRoutineEnd);
@@ -428,9 +425,6 @@ function mainTrialsLoopBegin(thisScheduler) {
 
 function mainTrialsLoopEnd() {
   psychoJS.experiment.removeLoop(mainTrials);
-  psychoJS.experiment.save({
-    attributes: mainTrials.getAttributes()
-  });
 
   return Scheduler.Event.NEXT;
 }
@@ -525,7 +519,7 @@ function mainRoutineEachFrame() {
     response.frameNStart = frameN;  // exact frame index
     response.status = PsychoJS.Status.STARTED;
     // keyboard checking is just starting
-    response.clock.reset();  // now t=0
+    psychoJS.window.callOnFlip(response.clock.reset) // t = 0 on screen flip
     psychoJS.eventManager.clearEvents({eventType:'keyboard'});
   }
   if (response.status === PsychoJS.Status.STARTED) {
@@ -846,18 +840,19 @@ function endLoopIteration(thisTrial) {
 }
 
 
-function importTrialAttributes(thisTrial) {
+function importConditions(loop) {
+  const trialIndex = loop.getTrialIndex();
   return function () {
-    psychoJS.importAttributes(thisTrial);
-
+    loop.setTrialIndex(trialIndex);
+    psychoJS.importAttributes(loop.getCurrentTrial());
     return Scheduler.Event.NEXT;
-  };
+    };
 }
 
 
-function quitPsychoJS() {
+function quitPsychoJS(isCompleted) {
   psychoJS.window.close();
-  psychoJS.quit();
+  psychoJS.quit({isCompleted});
 
   return Scheduler.Event.QUIT;
 }
