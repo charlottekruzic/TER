@@ -1,0 +1,15 @@
+response.keys,response.corr,mouseResp.x,mouseResp.y,mouseResp.leftButton,mouseResp.midButton,mouseResp.rightButton,mouseResp.clicked_name,practiceTrials.thisRepN,practiceTrials.thisTrialN,practiceTrials.thisN,practiceTrials.thisIndex,practiceTrials.ran,practiceTrials.order,isi,xPos,corrAns,participant,session,date,expName,psychopyVersion,frameRate,mainTrials.thisRepN,mainTrials.thisTrialN,mainTrials.thisN,mainTrials.thisIndex,mainTrials.ran,mainTrials.order
+,0,0.409259279,-0.02685186,1,0,0,targImage,1,0,8,3,1,7,1,0.375,n,,001,2019-06-12_09h49.02.395,choiceRTT,3.0.3,60,,,,,,
+,0,-0.349999992,-0.044444453,1,0,0,targImage,1,0,8,4,1,7,1,-0.375,c,,001,2019-06-12_09h49.02.395,choiceRTT,3.0.3,60,,,,,,
+,0,0.349074093,-0.036111119,1,0,0,targImage,1,0,8,7,1,7,1,0.375,n,,001,2019-06-12_09h49.02.395,choiceRTT,3.0.3,60,,,,,,
+,0,-0.145370359,-0.031481489,1,0,0,targImage,1,0,8,5,1,7,1,-0.125,v,,001,2019-06-12_09h49.02.395,choiceRTT,3.0.3,60,,,,,,
+,0,0.0851852,-0.015740748,1,0,0,targImage,1,0,8,6,1,7,1,0.125,b,,001,2019-06-12_09h49.02.395,choiceRTT,3.0.3,60,,,,,,
+,0,-0.448148113,-0.048148156,1,0,0,targImage,1,0,8,0,1,7,1,-0.375,c,,001,2019-06-12_09h49.02.395,choiceRTT,3.0.3,60,,,,,,
+,0,0.078703718,0.037962956,1,0,0,targImage,1,0,8,2,1,7,1,0.125,b,,001,2019-06-12_09h49.02.395,choiceRTT,3.0.3,60,,,,,,
+,0,-0.078703692,0.03703703,1,0,0,targImage,1,0,8,1,1,7,1,-0.125,v,,001,2019-06-12_09h49.02.395,choiceRTT,3.0.3,60,,,,,,
+,0,-0.079629618,0.03703703,1,0,0,targImage,,,,,,,2.3332,-0.125,v,,001,2019-06-12_09h49.02.395,choiceRTT,3.0.3,60,1,0,40,25,1,39
+,0,-0.303703695,0.054629595,1,0,0,targImage,,,,,,,2.3332,-0.375,c,,001,2019-06-12_09h49.02.395,choiceRTT,3.0.3,60,1,0,40,24,1,39
+,0,0.371296315,-0.014814822,1,0,0,targImage,,,,,,,1.4444,0.375,n,,001,2019-06-12_09h49.02.395,choiceRTT,3.0.3,60,1,0,40,11,1,39
+,0,0.106481496,0.043518512,1,0,0,targImage,,,,,,,2.111,0.125,b,,001,2019-06-12_09h49.02.395,choiceRTT,3.0.3,60,1,0,40,22,1,39
+,0,0.05555557,-0.059259268,1,0,0,targImage,,,,,,,1.6666,0.125,b,,001,2019-06-12_09h49.02.395,choiceRTT,3.0.3,60,1,0,40,14,1,39
+,0,-0.079629618,-0.030555563,1,0,0,targImage,,,,,,,1.8888,-0.125,v,,001,2019-06-12_09h49.02.395,choiceRTT,3.0.3,60,1,0,40,17,1,39
