@@ -1,0 +1,9 @@
+response.keys,response.corr,mouseResp.x,mouseResp.y,mouseResp.leftButton,mouseResp.midButton,mouseResp.rightButton,mouseResp.clicked_name,practiceTrials.thisRepN,practiceTrials.thisTrialN,practiceTrials.thisN,practiceTrials.thisIndex,practiceTrials.ran,practiceTrials.order,isi,xPos,corrAns,participant,session,date,expName,psychopyVersion,frameRate
+,0,0.084623323,-0.021155831,1,0,0,targImage,1,0,8,6,1,7,1,0.125,b,test123,001,2019-07-17_10h55.04.598,choiceRTT,3.1.3,60
+,0,-0.090815273,0.007739938,1,0,0,targImage,1,0,8,5,1,7,1,-0.125,v,test123,001,2019-07-17_10h55.04.598,choiceRTT,3.1.3,60
+,0,0.346749226,-0.029411765,1,0,0,targImage,1,0,8,3,1,7,1,0.375,n,test123,001,2019-07-17_10h55.04.598,choiceRTT,3.1.3,60
+,0,-0.336429309,0.03869969,1,0,0,targImage,1,0,8,4,1,7,1,-0.375,c,test123,001,2019-07-17_10h55.04.598,choiceRTT,3.1.3,60
+,0,-0.105263158,-0.033539732,1,0,0,targImage,1,0,8,1,1,7,1,-0.125,v,test123,001,2019-07-17_10h55.04.598,choiceRTT,3.1.3,60
+,0,-0.311661507,0.057275542,1,0,0,targImage,1,0,8,0,1,7,1,-0.375,c,test123,001,2019-07-17_10h55.04.598,choiceRTT,3.1.3,60
+,0,0.123839009,0.005675955,1,0,0,targImage,1,0,8,2,1,7,1,0.125,b,test123,001,2019-07-17_10h55.04.598,choiceRTT,3.1.3,60
+,0,0.303405573,0.03250774,1,0,0,targImage,1,0,8,7,1,7,1,0.375,n,test123,001,2019-07-17_10h55.04.598,choiceRTT,3.1.3,60
