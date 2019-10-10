@@ -1,0 +1,4 @@
+response.keys,response.corr,mouseResp.x,mouseResp.y,mouseResp.leftButton,mouseResp.midButton,mouseResp.rightButton,mouseResp.clicked_name,participant,session,date,expName,psychopyVersion,frameRate
+,0,-0.141666667,-0.005555556,1,0,0,targImage,0,001,2019-10-10_14h33.09.586,choiceRTT,3.1.3,60
+,0,-0.141666667,-0.005555556,1,0,0,targImage,0,001,2019-10-10_14h33.09.586,choiceRTT,3.1.3,60
+,0,0.445138889,0,1,0,0,targImage,0,001,2019-10-10_14h33.09.586,choiceRTT,3.1.3,60
