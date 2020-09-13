@@ -1,0 +1,9 @@
+response.keys,response.corr,response.rt,mouseResp.x,mouseResp.y,mouseResp.leftButton,mouseResp.midButton,mouseResp.rightButton,practiceTrials.thisRepN,practiceTrials.thisTrialN,practiceTrials.thisN,practiceTrials.thisIndex,practiceTrials.ran,practiceTrials.order,isi,xPos,corrAns,participant,session,date,expName,psychopyVersion,frameRate,mouseResp.clicked_name
+b,0,3.601999998,0.09780878,0.042585565,0,0,0,1,0,8,4,1,7,1,-0.375,c,Miguel,001,2020-09-13_19h11.16.004,choiceRTT,3.1.3,60,
+,0,,0.378850446,0.030814732,1,0,0,1,0,8,7,1,7,1,0.375,n,Miguel,001,2020-09-13_19h11.16.004,choiceRTT,3.1.3,60,targImage
+,0,,-0.399468006,-0.022559524,1,0,0,1,0,8,0,1,7,1,-0.375,c,Miguel,001,2020-09-13_19h11.16.004,choiceRTT,3.1.3,60,targImage
+,0,,-0.123340774,0.003031994,1,0,0,1,0,8,5,1,7,1,-0.125,v,Miguel,001,2020-09-13_19h11.16.004,choiceRTT,3.1.3,60,targImage
+,0,,0.323560268,-0.038467262,1,0,0,1,0,8,3,1,7,1,0.375,n,Miguel,001,2020-09-13_19h11.16.004,choiceRTT,3.1.3,60,targImage
+,0,,0.143370536,-0.061209077,1,0,0,1,0,8,6,1,7,1,0.125,b,Miguel,001,2020-09-13_19h11.16.004,choiceRTT,3.1.3,60,targImage
+,0,,0.143370536,-0.061209077,1,0,0,1,0,8,2,1,7,1,0.125,b,Miguel,001,2020-09-13_19h11.16.004,choiceRTT,3.1.3,60,targImage
+,0,,-0.079962798,-0.025803571,1,0,0,1,0,8,1,1,7,1,-0.125,v,Miguel,001,2020-09-13_19h11.16.004,choiceRTT,3.1.3,60,targImage
