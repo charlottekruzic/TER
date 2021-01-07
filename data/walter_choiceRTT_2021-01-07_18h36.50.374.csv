@@ -1,0 +1,2 @@
+response.keys,response.corr,mouseResp.x,mouseResp.y,mouseResp.leftButton,mouseResp.midButton,mouseResp.rightButton,mouseResp.clicked_name,practiceTrials.thisRepN,practiceTrials.thisTrialN,practiceTrials.thisN,practiceTrials.thisIndex,practiceTrials.ran,practiceTrials.order,isi,xPos,corrAns,participant,session,date,expName,psychopyVersion,frameRate
+,0,0.096296296,0.031481481,1,0,0,targImage,1,0,8,6,1,7,1,0.125,b,walter,001,2021-01-07_18h36.50.374,choiceRTT,3.1.3,60
