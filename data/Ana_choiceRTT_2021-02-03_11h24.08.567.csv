@@ -1,0 +1,14 @@
+response.keys,response.corr,mouseResp.x,mouseResp.y,mouseResp.leftButton,mouseResp.midButton,mouseResp.rightButton,mouseResp.clicked_name,practiceTrials.thisRepN,practiceTrials.thisTrialN,practiceTrials.thisN,practiceTrials.thisIndex,practiceTrials.ran,practiceTrials.order,isi,xPos,corrAns,participant,session,date,expName,psychopyVersion,frameRate,mainTrials.thisRepN,mainTrials.thisTrialN,mainTrials.thisN,mainTrials.thisIndex,mainTrials.ran,mainTrials.order
+,0,0.159883721,0.01744186,1,0,0,targImage,1,0,8,6,1,7,1,0.125,b,Ana,001,2021-02-03_11h24.08.567,choiceRTT,3.1.3,60,,,,,,
+,0,0.423449612,0.023255814,1,0,0,targImage,1,0,8,7,1,7,1,0.375,n,Ana,001,2021-02-03_11h24.08.567,choiceRTT,3.1.3,60,,,,,,
+,0,-0.132751938,-0.029069767,1,0,0,targImage,1,0,8,5,1,7,1,-0.125,v,Ana,001,2021-02-03_11h24.08.567,choiceRTT,3.1.3,60,,,,,,
+,0,0.467054264,0.003875969,1,0,0,targImage,1,0,8,3,1,7,1,0.375,n,Ana,001,2021-02-03_11h24.08.567,choiceRTT,3.1.3,60,,,,,,
+,0,0.126937984,-0.00872093,1,0,0,targImage,1,0,8,2,1,7,1,0.125,b,Ana,001,2021-02-03_11h24.08.567,choiceRTT,3.1.3,60,,,,,,
+,0,-0.125968992,-0.003875969,1,0,0,targImage,1,0,8,1,1,7,1,-0.125,v,Ana,001,2021-02-03_11h24.08.567,choiceRTT,3.1.3,60,,,,,,
+,0,-0.389534884,-0.026162791,1,0,0,targImage,1,0,8,4,1,7,1,-0.375,c,Ana,001,2021-02-03_11h24.08.567,choiceRTT,3.1.3,60,,,,,,
+,0,-0.309108527,-0.019379845,1,0,0,targImage,1,0,8,0,1,7,1,-0.375,c,Ana,001,2021-02-03_11h24.08.567,choiceRTT,3.1.3,60,,,,,,
+,0,-0.322674419,-0.012596899,1,0,0,targImage,,,,,,,1.6666,-0.375,c,Ana,001,2021-02-03_11h24.08.567,choiceRTT,3.1.3,60,1,0,40,12,1,39
+,0,-0.42248062,-0.018410853,1,0,0,targImage,,,,,,,1.8888,-0.375,c,Ana,001,2021-02-03_11h24.08.567,choiceRTT,3.1.3,60,1,0,40,16,1,39
+,0,-0.109496124,-0.028100775,1,0,0,targImage,,,,,,,1.2222,-0.125,v,Ana,001,2021-02-03_11h24.08.567,choiceRTT,3.1.3,60,1,0,40,5,1,39
+,0,0.362403101,-0.021317829,1,0,0,targImage,,,,,,,1,0.375,n,Ana,001,2021-02-03_11h24.08.567,choiceRTT,3.1.3,60,1,0,40,3,1,39
+,0,0.374031008,-0.034883721,1,0,0,targImage,,,,,,,1.6666,0.375,n,Ana,001,2021-02-03_11h24.08.567,choiceRTT,3.1.3,60,1,0,40,15,1,39
