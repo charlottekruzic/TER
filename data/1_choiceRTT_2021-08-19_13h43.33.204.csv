@@ -1,0 +1,5 @@
+response.keys,response.corr,mouseResp.x,mouseResp.y,mouseResp.leftButton,mouseResp.midButton,mouseResp.rightButton,mouseResp.clicked_name,practiceTrials.thisRepN,practiceTrials.thisTrialN,practiceTrials.thisN,practiceTrials.thisIndex,practiceTrials.ran,practiceTrials.order,isi,xPos,corrAns,participant,session,date,expName,psychopyVersion,frameRate
+,0,-0.095052083,0.018229167,1,0,0,targImage,1,0,8,5,1,7,1,-0.125,v,1,001,2021-08-19_13h43.33.204,choiceRTT,3.1.3,60
+,0,-0.369791667,-0.02734375,1,0,0,targImage,1,0,8,0,1,7,1,-0.375,c,1,001,2021-08-19_13h43.33.204,choiceRTT,3.1.3,60
+,0,0.39453125,-0.002604167,1,0,0,targImage,1,0,8,7,1,7,1,0.375,n,1,001,2021-08-19_13h43.33.204,choiceRTT,3.1.3,60
+,0,-0.360677083,-0.005208333,1,0,0,targImage,1,0,8,4,1,7,1,-0.375,c,1,001,2021-08-19_13h43.33.204,choiceRTT,3.1.3,60
