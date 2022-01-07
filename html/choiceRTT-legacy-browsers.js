@@ -138,7 +138,7 @@ async function experimentInit() {
   intro_square = new visual.ImageStim({
     win : psychoJS.window,
     name : 'intro_square', units : undefined, 
-    image : 'images/response_square.jpg', mask : undefined,
+    image : (images / response_square.jpg), mask : undefined,
     ori : 0.0, pos : [0, (- 0.25)], size : [0.2, 0.1],
     color : new util.Color([1, 1, 1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
@@ -147,7 +147,7 @@ async function experimentInit() {
   intro_plus = new visual.ImageStim({
     win : psychoJS.window,
     name : 'intro_plus', units : undefined, 
-    image : 'images/response_plus.jpg', mask : undefined,
+    image : (images / response_plus.jpg), mask : undefined,
     ori : 0.0, pos : [0.25, (- 0.25)], size : [0.2, 0.1],
     color : new util.Color([1, 1, 1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
@@ -156,7 +156,7 @@ async function experimentInit() {
   intro_cross = new visual.ImageStim({
     win : psychoJS.window,
     name : 'intro_cross', units : undefined, 
-    image : 'images/response_cross.jpg', mask : undefined,
+    image : (images / response_cross.jpg), mask : undefined,
     ori : 0.0, pos : [(- 0.25), (- 0.25)], size : [0.2, 0.1],
     color : new util.Color([1, 1, 1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
@@ -167,7 +167,7 @@ async function experimentInit() {
   rightright_tile = new visual.ImageStim({
     win : psychoJS.window,
     name : 'rightright_tile', units : undefined, 
-    image : 'images/grey_square.jpg', mask : undefined,
+    image : (images / grey_square.jpg), mask : undefined,
     ori : 0.0, pos : [0.375, 0], size : [0.22, 0.22],
     color : new util.Color([1, 1, 1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
@@ -176,7 +176,7 @@ async function experimentInit() {
   right_tile = new visual.ImageStim({
     win : psychoJS.window,
     name : 'right_tile', units : undefined, 
-    image : 'images/grey_square.jpg', mask : undefined,
+    image : (images / grey_square.jpg), mask : undefined,
     ori : 0.0, pos : [0.125, 0], size : [0.22, 0.22],
     color : new util.Color([1, 1, 1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
@@ -185,7 +185,7 @@ async function experimentInit() {
   left_tile = new visual.ImageStim({
     win : psychoJS.window,
     name : 'left_tile', units : undefined, 
-    image : 'images/grey_square.jpg', mask : undefined,
+    image : (images / grey_square.jpg), mask : undefined,
     ori : 0.0, pos : [(- 0.125), 0], size : [0.22, 0.22],
     color : new util.Color([1, 1, 1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
@@ -194,7 +194,7 @@ async function experimentInit() {
   leftleft_tile = new visual.ImageStim({
     win : psychoJS.window,
     name : 'leftleft_tile', units : undefined, 
-    image : 'images/grey_square.jpg', mask : undefined,
+    image : (images / grey_square.jpg), mask : undefined,
     ori : 0.0, pos : [(- 0.375), 0], size : [0.22, 0.22],
     color : new util.Color([1, 1, 1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
@@ -203,7 +203,7 @@ async function experimentInit() {
   square_button = new visual.ImageStim({
     win : psychoJS.window,
     name : 'square_button', units : undefined, 
-    image : 'images/response_square.jpg', mask : undefined,
+    image : (images / response_square.jpg), mask : undefined,
     ori : 0.0, pos : [0, (- 0.25)], size : [0.2, 0.1],
     color : new util.Color([1, 1, 1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
@@ -212,7 +212,7 @@ async function experimentInit() {
   plus_button = new visual.ImageStim({
     win : psychoJS.window,
     name : 'plus_button', units : undefined, 
-    image : 'images/response_plus.jpg', mask : undefined,
+    image : (images / response_plus.jpg), mask : undefined,
     ori : 0.0, pos : [0.25, (- 0.25)], size : [0.2, 0.1],
     color : new util.Color([1, 1, 1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
@@ -221,7 +221,7 @@ async function experimentInit() {
   cross_button = new visual.ImageStim({
     win : psychoJS.window,
     name : 'cross_button', units : undefined, 
-    image : 'images/response_cross.jpg', mask : undefined,
+    image : (images / response_cross.jpg), mask : undefined,
     ori : 0.0, pos : [(- 0.25), (- 0.25)], size : [0.2, 0.1],
     color : new util.Color([1, 1, 1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
