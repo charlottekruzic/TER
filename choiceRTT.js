@@ -67,17 +67,17 @@ psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
+    {'name': 'images/target_I.jpg', 'path': 'images/target_I.jpg'},
+    {'name': 'images/target_plus.jpg', 'path': 'images/target_plus.jpg'},
+    {'name': 'images/target_square.jpg', 'path': 'images/target_square.jpg'},
+    {'name': 'images/response_square.jpg', 'path': 'images/response_square.jpg'},
+    {'name': 'images/target_T.jpg', 'path': 'images/target_T.jpg'},
+    {'name': 'images/target_cross.jpg', 'path': 'images/target_cross.jpg'},
+    {'name': 'RTtimeConditions.xlsx', 'path': 'RTtimeConditions.xlsx'},
+    {'name': 'images/response_ready.jpg', 'path': 'images/response_ready.jpg'},
     {'name': 'images/response_cross.jpg', 'path': 'images/response_cross.jpg'},
     {'name': 'images/response_plus.jpg', 'path': 'images/response_plus.jpg'},
-    {'name': 'images/response_ready.jpg', 'path': 'images/response_ready.jpg'},
-    {'name': 'images/target_I.jpg', 'path': 'images/target_I.jpg'},
-    {'name': 'images/target_T.jpg', 'path': 'images/target_T.jpg'},
-    {'name': 'images/target_square.jpg', 'path': 'images/target_square.jpg'},
-    {'name': 'RTtimeConditions.xlsx', 'path': 'RTtimeConditions.xlsx'},
-    {'name': 'images/target_cross.jpg', 'path': 'images/target_cross.jpg'},
-    {'name': 'images/target_plus.jpg', 'path': 'images/target_plus.jpg'},
-    {'name': 'images/grey_square.jpg', 'path': 'images/grey_square.jpg'},
-    {'name': 'images/response_square.jpg', 'path': 'images/response_square.jpg'}
+    {'name': 'images/grey_square.jpg', 'path': 'images/grey_square.jpg'}
   ]
 });
 
