@@ -1,8 +1,0 @@
-response.keys,response.corr,mouseResp.x,mouseResp.y,mouseResp.leftButton,mouseResp.midButton,mouseResp.rightButton,mouseResp.clicked_name,practiceTrials.thisRepN,practiceTrials.thisTrialN,practiceTrials.thisN,practiceTrials.thisIndex,practiceTrials.ran,practiceTrials.order,isi,xPos,corrAns,participant,session,date,expName,psychopyVersion,frameRate
-,0,0.377777797,-0.013888897,1,0,0,targImage,1,0,8,3,1,7,1,0.375,n,Ukasz,001,2021-05-21_16h34.54.157,choiceRTT,3.1.3,60
-,0,0.365740759,0.012962956,1,0,0,targImage,1,0,8,7,1,7,1,0.375,n,Ukasz,001,2021-05-21_16h34.54.157,choiceRTT,3.1.3,60
-,0,-0.349074066,-0.002777785,1,0,0,targImage,1,0,8,4,1,7,1,-0.375,c,Ukasz,001,2021-05-21_16h34.54.157,choiceRTT,3.1.3,60
-,0,-0.103703692,0.004629622,1,0,0,targImage,1,0,8,1,1,7,1,-0.125,v,Ukasz,001,2021-05-21_16h34.54.157,choiceRTT,3.1.3,60
-,0,0.173148164,-0.008333341,1,0,0,targImage,1,0,8,2,1,7,1,0.125,b,Ukasz,001,2021-05-21_16h34.54.157,choiceRTT,3.1.3,60
-,0,0.153703719,0.006481474,1,0,0,targImage,1,0,8,6,1,7,1,0.125,b,Ukasz,001,2021-05-21_16h34.54.157,choiceRTT,3.1.3,60
-,0,-0.364814807,0.025925919,1,0,0,targImage,1,0,8,0,1,7,1,-0.375,c,Ukasz,001,2021-05-21_16h34.54.157,choiceRTT,3.1.3,60
